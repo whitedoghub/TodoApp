@@ -9,8 +9,13 @@
     "test": "jest",
     "lint": "eslint ."
   },
+  "eslintConfig": {
+    "extends": [
+      "prettier"
+    ]
+  },
   "dependencies": {
-    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
     "react": "16.9.0",
     "react-native": "0.61.2"
   },
